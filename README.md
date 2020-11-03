@@ -88,16 +88,16 @@ https://pytta.readthedocs.io/
 
 ### Installation
 
+To install the last version compiled to pip, which can be slightly behind of
+development branch, do:
+
+    >>> pip install pytta
+    
 If you want to check the most up to date beta version, please get the
 development branch source code, clone our repository to your local git, or
 even install it from pip, as follows:
 
     >>> pip install git+https://github.com/pyttamaster/pytta@development
-
-To install the last version compiled to pip, which at this point may not be
-the best version on the repository, do:
-
-    >>> pip install pytta
 
 ### Contributing as a user
 
@@ -107,12 +107,7 @@ sending us a message.
 
 ### Contributing as a developer
 
-Our workflow consists of parallel development of submodules, either
-complementing an existing one or creating a new. Thus, one must create a new
-branch from the development branch. Its name should contain dev- as the suffix,
-named accordingly with the project intent. After the new branch is ready and
-coding finished, we would be glad to receive a pull request. Consider reading
-our CodingGuidelines.
+Please read our [CodingGuidelines](https://github.com/PyTTAmaster/PyTTa/blob/development/CodingGuidelines) and [Contributing](https://github.com/PyTTAmaster/PyTTa/blob/development/Contributing.md) files.
 
 ### Contact
 
